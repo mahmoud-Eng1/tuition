@@ -5,8 +5,8 @@ import {Navbar} from "react-bootstrap"
 const Days = () => {
   return (
     <div>
-        <Navbar className="col-12 p-2">
-        
+        <Navbar className="col-12">
+        <div className='navParent'>
           <Link className='linkDay' to={"/"}> ختار اليوم</Link>
           <Link className='linkDay' to={"/saturday"}> السبت</Link>
           <Link className='linkDay' to={"/sunday"}> الاحد</Link>
@@ -14,6 +14,7 @@ const Days = () => {
           <Link className='linkDay' to={"/tusday"}>  الثلاثاء</Link>
           <Link className='linkDay' to={"/wednesday"}> الاربعاء</Link>
           <Link className='linkDay' to={"/thursday"}> الخميس</Link>
+          </div>
           </Navbar>
     </div>
   )
