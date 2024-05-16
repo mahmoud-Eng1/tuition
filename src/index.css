@@ -46,7 +46,7 @@ body {
     padding-right: 10px;
 }
 .bord {
-    border-right: 1px solid graytuition;
+    border-right: 1px solid gray;
 }
 .linkDay {
     color: black;
@@ -65,6 +65,8 @@ body {
 
 }
 .navParent {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
